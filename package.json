@@ -4,9 +4,9 @@
   "description": "",
   "source": "./source/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel"
-  },
+  "start": "npx parcel source/index.html",
+  "build": "npx parcel build source/index.html"
+},
   "keywords": [],
   "author": "Iallen Gábio",
   "license": "ISC",
